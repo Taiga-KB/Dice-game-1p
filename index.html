@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Dice Game</title>
+</head>
+<body>
+    
+    <div id="welcome">
+        <h1><u>Dice Game</u></h1><br>
+        <h2>Press 'roll' to begin the game </h2>
+    </div>
+
+    <div id="dice">
+        <button id="rollBtn">ROLL</button>
+        <div id="diceBlock">
+          <p id="diceNum">diceNum</p>  
+        </div>
+        
+        <p id="score">Score</p>
+    </div>
+
+    <div id="rules">
+        <h3>The Score sums up as you roll. <br>
+            If you roll a 1, you lose! <br>
+            Once you score reaches above 20, you win!
+        </h3>
+        <button id="resetBtn">RESET</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
